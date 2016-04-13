@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCEFBED71CBDF5BF000AF7E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEFBED61CBDF5BF000AF7E2 /* main.m */; };
+		CCEFBEDA1CBDF5BF000AF7E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEFBED91CBDF5BF000AF7E2 /* AppDelegate.m */; };
+		CCEFBEDD1CBDF5BF000AF7E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEFBEDC1CBDF5BF000AF7E2 /* ViewController.m */; };
+		CCEFBEE01CBDF5BF000AF7E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEFBEDE1CBDF5BF000AF7E2 /* Main.storyboard */; };
+		CCEFBEE21CBDF5BF000AF7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEFBEE11CBDF5BF000AF7E2 /* Assets.xcassets */; };
+		CCEFBEE51CBDF5BF000AF7E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEFBEE31CBDF5BF000AF7E2 /* LaunchScreen.storyboard */; };
+		CCEFBEF01CBDF5BF000AF7E2 /* ShareCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEFBEEF1CBDF5BF000AF7E2 /* ShareCalcTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCEFBEEC1CBDF5BF000AF7E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEFBECA1CBDF5BF000AF7E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEFBED11CBDF5BF000AF7E2;
+			remoteInfo = ShareCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCEFBED21CBDF5BF000AF7E2 /* ShareCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEFBED61CBDF5BF000AF7E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCEFBED81CBDF5BF000AF7E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCEFBED91CBDF5BF000AF7E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCEFBEDB1CBDF5BF000AF7E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCEFBEDC1CBDF5BF000AF7E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCEFBEDF1CBDF5BF000AF7E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCEFBEE11CBDF5BF000AF7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCEFBEE41CBDF5BF000AF7E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCEFBEE61CBDF5BF000AF7E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEFBEEB1CBDF5BF000AF7E2 /* ShareCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEFBEEF1CBDF5BF000AF7E2 /* ShareCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareCalcTests.m; sourceTree = "<group>"; };
+		CCEFBEF11CBDF5BF000AF7E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCEFBECF1CBDF5BF000AF7E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEFBEE81CBDF5BF000AF7E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCEFBEC91CBDF5BF000AF7E2 = {
+			isa = PBXGroup;
+			children = (
+				CCEFBED41CBDF5BF000AF7E2 /* ShareCalc */,
+				CCEFBEEE1CBDF5BF000AF7E2 /* ShareCalcTests */,
+				CCEFBED31CBDF5BF000AF7E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCEFBED31CBDF5BF000AF7E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCEFBED21CBDF5BF000AF7E2 /* ShareCalc.app */,
+				CCEFBEEB1CBDF5BF000AF7E2 /* ShareCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCEFBED41CBDF5BF000AF7E2 /* ShareCalc */ = {
+			isa = PBXGroup;
+			children = (
+				CCEFBED81CBDF5BF000AF7E2 /* AppDelegate.h */,
+				CCEFBED91CBDF5BF000AF7E2 /* AppDelegate.m */,
+				CCEFBEDB1CBDF5BF000AF7E2 /* ViewController.h */,
+				CCEFBEDC1CBDF5BF000AF7E2 /* ViewController.m */,
+				CCEFBEDE1CBDF5BF000AF7E2 /* Main.storyboard */,
+				CCEFBEE11CBDF5BF000AF7E2 /* Assets.xcassets */,
+				CCEFBEE31CBDF5BF000AF7E2 /* LaunchScreen.storyboard */,
+				CCEFBEE61CBDF5BF000AF7E2 /* Info.plist */,
+				CCEFBED51CBDF5BF000AF7E2 /* Supporting Files */,
+			);
+			path = ShareCalc;
+			sourceTree = "<group>";
+		};
+		CCEFBED51CBDF5BF000AF7E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCEFBED61CBDF5BF000AF7E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCEFBEEE1CBDF5BF000AF7E2 /* ShareCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCEFBEEF1CBDF5BF000AF7E2 /* ShareCalcTests.m */,
+				CCEFBEF11CBDF5BF000AF7E2 /* Info.plist */,
+			);
+			path = ShareCalcTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCEFBED11CBDF5BF000AF7E2 /* ShareCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEFBEF41CBDF5BF000AF7E2 /* Build configuration list for PBXNativeTarget "ShareCalc" */;
+			buildPhases = (
+				CCEFBECE1CBDF5BF000AF7E2 /* Sources */,
+				CCEFBECF1CBDF5BF000AF7E2 /* Frameworks */,
+				CCEFBED01CBDF5BF000AF7E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareCalc;
+			productName = ShareCalc;
+			productReference = CCEFBED21CBDF5BF000AF7E2 /* ShareCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCEFBEEA1CBDF5BF000AF7E2 /* ShareCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEFBEF71CBDF5BF000AF7E2 /* Build configuration list for PBXNativeTarget "ShareCalcTests" */;
+			buildPhases = (
+				CCEFBEE71CBDF5BF000AF7E2 /* Sources */,
+				CCEFBEE81CBDF5BF000AF7E2 /* Frameworks */,
+				CCEFBEE91CBDF5BF000AF7E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEFBEED1CBDF5BF000AF7E2 /* PBXTargetDependency */,
+			);
+			name = ShareCalcTests;
+			productName = ShareCalcTests;
+			productReference = CCEFBEEB1CBDF5BF000AF7E2 /* ShareCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCEFBECA1CBDF5BF000AF7E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Daniel Campbell";
+				TargetAttributes = {
+					CCEFBED11CBDF5BF000AF7E2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CCEFBEEA1CBDF5BF000AF7E2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CCEFBED11CBDF5BF000AF7E2;
+					};
+				};
+			};
+			buildConfigurationList = CCEFBECD1CBDF5BF000AF7E2 /* Build configuration list for PBXProject "ShareCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCEFBEC91CBDF5BF000AF7E2;
+			productRefGroup = CCEFBED31CBDF5BF000AF7E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCEFBED11CBDF5BF000AF7E2 /* ShareCalc */,
+				CCEFBEEA1CBDF5BF000AF7E2 /* ShareCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCEFBED01CBDF5BF000AF7E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEFBEE51CBDF5BF000AF7E2 /* LaunchScreen.storyboard in Resources */,
+				CCEFBEE21CBDF5BF000AF7E2 /* Assets.xcassets in Resources */,
+				CCEFBEE01CBDF5BF000AF7E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEFBEE91CBDF5BF000AF7E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEFBECE1CBDF5BF000AF7E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEFBEDD1CBDF5BF000AF7E2 /* ViewController.m in Sources */,
+				CCEFBEDA1CBDF5BF000AF7E2 /* AppDelegate.m in Sources */,
+				CCEFBED71CBDF5BF000AF7E2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEFBEE71CBDF5BF000AF7E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEFBEF01CBDF5BF000AF7E2 /* ShareCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCEFBEED1CBDF5BF000AF7E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEFBED11CBDF5BF000AF7E2 /* ShareCalc */;
+			targetProxy = CCEFBEEC1CBDF5BF000AF7E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCEFBEDE1CBDF5BF000AF7E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEFBEDF1CBDF5BF000AF7E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCEFBEE31CBDF5BF000AF7E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEFBEE41CBDF5BF000AF7E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCEFBEF21CBDF5BF000AF7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCEFBEF31CBDF5BF000AF7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCEFBEF51CBDF5BF000AF7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dancamp.ShareCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCEFBEF61CBDF5BF000AF7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dancamp.ShareCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCEFBEF81CBDF5BF000AF7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dancamp.ShareCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareCalc.app/ShareCalc";
+			};
+			name = Debug;
+		};
+		CCEFBEF91CBDF5BF000AF7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dancamp.ShareCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareCalc.app/ShareCalc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCEFBECD1CBDF5BF000AF7E2 /* Build configuration list for PBXProject "ShareCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEFBEF21CBDF5BF000AF7E2 /* Debug */,
+				CCEFBEF31CBDF5BF000AF7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEFBEF41CBDF5BF000AF7E2 /* Build configuration list for PBXNativeTarget "ShareCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEFBEF51CBDF5BF000AF7E2 /* Debug */,
+				CCEFBEF61CBDF5BF000AF7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCEFBEF71CBDF5BF000AF7E2 /* Build configuration list for PBXNativeTarget "ShareCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEFBEF81CBDF5BF000AF7E2 /* Debug */,
+				CCEFBEF91CBDF5BF000AF7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCEFBECA1CBDF5BF000AF7E2 /* Project object */;
+}
