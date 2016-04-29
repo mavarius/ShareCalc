@@ -14,6 +14,10 @@
 		CCEFBEE21CBDF5BF000AF7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEFBEE11CBDF5BF000AF7E2 /* Assets.xcassets */; };
 		CCEFBEE51CBDF5BF000AF7E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEFBEE31CBDF5BF000AF7E2 /* LaunchScreen.storyboard */; };
 		CCEFBEF01CBDF5BF000AF7E2 /* ShareCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEFBEEF1CBDF5BF000AF7E2 /* ShareCalcTests.m */; };
+		CCEFBEFC1CC72FB7000AF7E2 /* MSCBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEFBEFB1CC72FB7000AF7E2 /* MSCBuyViewController.m */; };
+		CCEFBEFF1CC72FD4000AF7E2 /* MSCSellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEFBEFE1CC72FD4000AF7E2 /* MSCSellViewController.m */; };
+		CCEFBF021CD1C861000AF7E2 /* MSCFlipSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEFBF011CD1C861000AF7E2 /* MSCFlipSegue.m */; };
+		CCEFBF041CD31400000AF7E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEFBF031CD31400000AF7E2 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		CCEFBEEB1CBDF5BF000AF7E2 /* ShareCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEFBEEF1CBDF5BF000AF7E2 /* ShareCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareCalcTests.m; sourceTree = "<group>"; };
 		CCEFBEF11CBDF5BF000AF7E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEFBEFA1CC72FB7000AF7E2 /* MSCBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCBuyViewController.h; sourceTree = "<group>"; };
+		CCEFBEFB1CC72FB7000AF7E2 /* MSCBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCBuyViewController.m; sourceTree = "<group>"; };
+		CCEFBEFD1CC72FD4000AF7E2 /* MSCSellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCSellViewController.h; sourceTree = "<group>"; };
+		CCEFBEFE1CC72FD4000AF7E2 /* MSCSellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCSellViewController.m; sourceTree = "<group>"; };
+		CCEFBF001CD1C861000AF7E2 /* MSCFlipSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCFlipSegue.h; sourceTree = "<group>"; };
+		CCEFBF011CD1C861000AF7E2 /* MSCFlipSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCFlipSegue.m; sourceTree = "<group>"; };
+		CCEFBF031CD31400000AF7E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCEFBF041CD31400000AF7E2 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,7 @@
 		CCEFBEC91CBDF5BF000AF7E2 = {
 			isa = PBXGroup;
 			children = (
+				CCEFBF031CD31400000AF7E2 /* QuartzCore.framework */,
 				CCEFBED41CBDF5BF000AF7E2 /* ShareCalc */,
 				CCEFBEEE1CBDF5BF000AF7E2 /* ShareCalcTests */,
 				CCEFBED31CBDF5BF000AF7E2 /* Products */,
@@ -86,6 +99,12 @@
 				CCEFBEDB1CBDF5BF000AF7E2 /* ViewController.h */,
 				CCEFBEDC1CBDF5BF000AF7E2 /* ViewController.m */,
 				CCEFBEDE1CBDF5BF000AF7E2 /* Main.storyboard */,
+				CCEFBF001CD1C861000AF7E2 /* MSCFlipSegue.h */,
+				CCEFBF011CD1C861000AF7E2 /* MSCFlipSegue.m */,
+				CCEFBEFA1CC72FB7000AF7E2 /* MSCBuyViewController.h */,
+				CCEFBEFB1CC72FB7000AF7E2 /* MSCBuyViewController.m */,
+				CCEFBEFD1CC72FD4000AF7E2 /* MSCSellViewController.h */,
+				CCEFBEFE1CC72FD4000AF7E2 /* MSCSellViewController.m */,
 				CCEFBEE11CBDF5BF000AF7E2 /* Assets.xcassets */,
 				CCEFBEE31CBDF5BF000AF7E2 /* LaunchScreen.storyboard */,
 				CCEFBEE61CBDF5BF000AF7E2 /* Info.plist */,
@@ -211,9 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCEFBF021CD1C861000AF7E2 /* MSCFlipSegue.m in Sources */,
 				CCEFBEDD1CBDF5BF000AF7E2 /* ViewController.m in Sources */,
+				CCEFBEFF1CC72FD4000AF7E2 /* MSCSellViewController.m in Sources */,
 				CCEFBEDA1CBDF5BF000AF7E2 /* AppDelegate.m in Sources */,
 				CCEFBED71CBDF5BF000AF7E2 /* main.m in Sources */,
+				CCEFBEFC1CC72FB7000AF7E2 /* MSCBuyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +367,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dancamp.ShareCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,6 +379,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dancamp.ShareCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
