@@ -215,18 +215,19 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8a0-Tp-9yf">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="H4m-qQ-snv">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xsZ-NN-ZJR">
-                                <rect key="frame" x="447" y="7" width="133" height="30"/>
+                        <nil key="title"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="8QK-9W-yfY">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Kg-vN-tgy">
+                                <rect key="frame" x="430" y="7" width="150" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <state key="normal" title="sell">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Tns-co-t2r" kind="show" id="ach-bx-ISK"/>
+                                </connections>
                             </button>
-                            <connections>
-                                <segue destination="Tns-co-t2r" kind="custom" identifier="MSCFlipForward" customClass="MSCFlipSegue" id="5wr-lR-ZcK"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
@@ -411,16 +412,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0c3-xY-Ope">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="adL-xJ-frC">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Wxc-SY-wDO">
-                                <rect key="frame" x="447" y="7" width="133" height="30"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="7NE-Ed-7FW">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uZZ-LM-yYE">
+                                <rect key="frame" x="430" y="7" width="150" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <state key="normal" title="buy">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="custom" customClass="MSCFlipSegue" id="ipS-a8-Aik"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="lXt-v9-Qeq"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -452,7 +453,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HRI-sf-Oyh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="565" y="550"/>
+            <point key="canvasLocation" x="619" y="550"/>
         </scene>
     </scenes>
     <resources>
@@ -460,6 +461,6 @@
         <image name="lightWood" width="375" height="667"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ipS-a8-Aik"/>
+        <segue reference="lXt-v9-Qeq"/>
     </inferredMetricsTieBreakers>
 </document>
