@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+// Direction indicator
+extern NSString *MSCFlipToSell;
+extern NSString *MSCFlipToBuy;
+
 @interface MSCFlipSegue : UIStoryboardSegue
 
 @end
